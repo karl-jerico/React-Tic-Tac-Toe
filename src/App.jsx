@@ -26,7 +26,7 @@ function deriveActivePlayer(gameTurns) {
     return currentPlayer;
 }
 
-function deriveWinner(gameBoard, player) {
+function deriveWinner(gameBoard, players) {
   let winner = null;
 
   for (const combinations of WINNING_COMBINATIONS) {
